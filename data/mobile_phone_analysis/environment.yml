@@ -1,0 +1,22 @@
+name: mobile-phone-data-analysis
+channels:
+  - conda-forge
+dependencies:
+  - geojson
+  - geopandas
+  - seaborn
+  - contextily
+  - community
+  - jupyterlab
+  - matplotlib
+  - nbclient
+  - nbformat
+  - numpy
+  - pandas
+  - pip
+  - pyspark
+  - python=3.9
+  - scipy
+  - pip:
+    - pyproj
+    - nbclick
