@@ -1,0 +1,16 @@
+\begin{tabular}{lllll}
+\toprule
+ & weekday vs. weekend & onset 1 vs. onset 2 & onset 1 vs. offset & onset 2 vs. offset \\
+\midrule
+Number of movements- MPD & 0.7357 & 0.0*** & 0.0*** & 0.0*** \\
+Mean movement distance- MPD & 0.6421 & 0.0*** & 0.0*** & 0.0*** \\
+Graph modularity- MPD & 0.8255 & 0.0*** & 0.0*** & 0.0*** \\
+% activity in residential area- MPD & 0.7078 & 0.0*** & 0.0*** & 0.0*** \\
+Radius of gyration- MPD & 0.6397 & 0.0*** & 0.0*** & 0.0*** \\
+Number of movements- Twitter & 0.9608 & 0.0*** & 0.0*** & 0.0*** \\
+Mean movement distance- Twitter & 0.9622 & 0.0*** & 0.0*** & 0.0*** \\
+Graph modularity- Twitter & 0.9482 & 0.00222*** & 0.0*** & 0.0*** \\
+% activity in residential area- Twitter & 0.923 & 0.0*** & 0.0*** & 0.0*** \\
+Radius of gyration- Twitter & 0.923 & 0.0*** & 0.0*** & 0.0*** \\
+\bottomrule
+\end{tabular}

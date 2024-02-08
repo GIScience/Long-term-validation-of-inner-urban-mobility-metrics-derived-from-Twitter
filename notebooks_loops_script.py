@@ -347,8 +347,13 @@ def notebook_B_04(tweets_dfs, starts, ends, allow_even_subsets=False):
             mm[i,i] = 0
         
         stats['no_real_movements'] = mm.sum().sum()
+
+        mm_for_modularity = mm + mm.T # This line is added after the comments of a reviever. Since G = nx.from_numpy_array(mm_for_modularity) later
+        # only uses the lower triange in our OD-matrix, we need to add the transposed matrix on top of the original one. This ensures
+        # that we have a symmetric matrix to calculate an undirected graph with it and all movements are taken into account.
+        # We therefore do not differentiate if a user goes from district a to b or b to a. 
             
-        G = nx.from_numpy_array(mm)
+        G = nx.from_numpy_array(mm_for_modularity)
         partition = community_louvain.best_partition(G, weight='weight')
         
         try:
