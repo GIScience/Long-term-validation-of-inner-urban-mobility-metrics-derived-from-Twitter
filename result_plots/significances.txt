@@ -2,15 +2,15 @@
 \toprule
  & weekday vs. weekend & onset 1 vs. onset 2 & onset 1 vs. offset & onset 2 vs. offset \\
 \midrule
-Number of movements- MPD & 0.7357 & 0.0*** & 0.0*** & 0.0*** \\
-Mean movement distance- MPD & 0.6421 & 0.0*** & 0.0*** & 0.0*** \\
-Graph modularity- MPD & 0.8255 & 0.0*** & 0.0*** & 0.0*** \\
-% activity in residential area- MPD & 0.7078 & 0.0*** & 0.0*** & 0.0*** \\
-Radius of gyration- MPD & 0.6397 & 0.0*** & 0.0*** & 0.0*** \\
-Number of movements- Twitter & 0.9608 & 0.0*** & 0.0*** & 0.0*** \\
-Mean movement distance- Twitter & 0.9622 & 0.0*** & 0.0*** & 0.0*** \\
-Graph modularity- Twitter & 0.9482 & 0.00222*** & 0.0*** & 0.0*** \\
-% activity in residential area- Twitter & 0.923 & 0.0*** & 0.0*** & 0.0*** \\
-Radius of gyration- Twitter & 0.923 & 0.0*** & 0.0*** & 0.0*** \\
+Number of movements- MPD & 0.736 & 3.091e-19*** & 3.072e-19*** & 1.006e-19*** \\
+Mean movement distance- MPD & 0.642 & 3.091e-19*** & 3.075e-19*** & 7.770e-22*** \\
+Graph modularity- MPD & 0.825 & 3.091e-19*** & 3.091e-19*** & 7.802e-22*** \\
+% activity in residential area- MPD & 0.708 & 3.091e-19*** & 3.085e-19*** & 5.443e-07*** \\
+Radius of gyration- MPD & 0.64 & 3.091e-19*** & 3.075e-19*** & 7.769e-22*** \\
+Number of movements- Twitter & 0.961 & 4.076e-09*** & 3.849e-18*** & 7.801e-22*** \\
+Mean movement distance- Twitter & 0.962 & 4.356e-17*** & 3.851e-18*** & 7.802e-22*** \\
+Graph modularity- Twitter & 0.948 & 2.217e-03*** & 3.851e-18*** & 7.802e-22*** \\
+% activity in residential area- Twitter & 0.923 & 3.851e-18*** & 3.851e-18*** & 7.802e-22*** \\
+Radius of gyration- Twitter & 0.923 & 1.975e-10*** & 3.851e-18*** & 7.802e-22*** \\
 \bottomrule
 \end{tabular}
